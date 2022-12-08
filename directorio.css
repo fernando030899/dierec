@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+header h1{
+    font-size: 71px;
+    color: black;
+}
+
+main{
+    width: 84vw;
+    height: auto;
+    padding-top: 58px;
+    background-color: rgb(44, 115, 115);
+    position: flex;
+    left: 130px;
+}
+
+main .formulario{
+    width: 91vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .formulario .h2{
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+}
+
+main .formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main .formulario form label{
+    width: 400px;
+    height: 35px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .formulario form label input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: gray;
+}
+
+main .formulario form div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .formulario form div button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+}
+
+
+main .formulario form #btnGuardar{
+    background-color: rgb(117, 220, 117);
+    cursor: pointer;
+}
+
+main .formulario form #btnCancelar{
+    background-color: rgb(221, 123, 123);
+    cursor: pointer;
+}
+
+main .lista{
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+main .lista .listaAmigos{
+    display: flex;
+    flex-direction: column;
+}
+
+main .lista .listaAmigos div{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .lista .listaAmigos div p{
+    font-weight: bold;
+    color: darkslategray;
+}
+
+main .lista .listaAmigos div button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: azure;
+    cursor: pointer;
+}
+
+.detallesAmigo{
+    width: 400px;
+    height: 400px;
+    top: calc(50vw - 600px);
+    left: calc(50vw - 200px);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #D5FFCC;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.detallesAmigo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.detallesAmigo h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.detallesAmigo p span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.detallesAmigo button{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2CA403;
+    cursor: pointer;
+    
+}
+
+.oculto{
+    display: none;
+
+}

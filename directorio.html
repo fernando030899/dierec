@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio</title>
+    <link rel="stylesheet" href="directorio.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Directorio de amigos</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Agregar amigo</h2>
+            <form action="" id="formulario">
+                <label for="nombre">Nombre:
+                    <input type="text" name="nombre">
+                </label>
+                <label for="telefono">Telefono:
+                    <input type="text" name="telefono">
+                </label>
+                <label for="correo">Correo:
+                    <input type="text" name="correo">
+                </label>
+                <label for="foto">Foto:
+                    <input type="text" name="foto">
+                </label>
+                <div>
+                    <button id="btnGuardar">Guardar</button><button id="btnCancelar">Cancelar</button>
+                </div>
+            </form>
+        </section>
+        <section class="lista">
+            <h2>Mis amigos</h2>
+            <section class="listaAmigos">
+                
+            </section>
+        </section>
+    </main>
+    <div class="oculto detallesAmigo" id="detallesAmigos">
+        
+    </div>
+    <script src="directorio.js"></script>
+</body>
+</html>
